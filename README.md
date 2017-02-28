@@ -9,16 +9,17 @@ syntax. Following are the files and its sort description of what it does.
 
 #Files 
 
-rev.java
+[1] rev.java
 It has three functions:
-[1] Function to reverse the integer from user input.
+
+[a] Function to reverse the integer from user input.
 	eg: input = 1234
 	    output = 4321
 
-[2] Function to reverse the string from user input. 
+[b] Function to reverse the string from user input. 
 	eg: input = abcd
 	    output = dcba
 
-[3] Function to find the reverse factorial from user input.
+[c] Function to find the reverse factorial from user input.
 	eg: input = 5040
 	    output = 7!
