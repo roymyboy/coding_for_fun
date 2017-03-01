@@ -12,6 +12,12 @@ import java.util.Scanner;
  */ 
 public class Anagram{
 
+	/**
+ 	* This method sorts the input and checks if they are anagram of each other
+ 	*
+ 	* @param String a, first input
+ 	* @param String b, second input 
+ 	*/  
 	public static String isAnagram(String a, String b){
 		
 		char[] str1 = a.toCharArray(); 
