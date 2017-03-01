@@ -23,3 +23,11 @@ It has three functions:
 [c] Function to find the reverse factorial from user input.
 	eg: input = 5040
 	    output = 7!
+
+[2] uniqueChar.java
+	this program return unique char from user input.
+	eg:  input = "aanngghhb"
+             output = "b"
+
+[3] AnnaGram.java
+
