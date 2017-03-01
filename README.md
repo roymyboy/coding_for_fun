@@ -30,4 +30,12 @@ It has three functions:
              output = "b"
 
 [3] AnnaGram.java
+	This programs takes in two different strings from user and checks if they 
+	are annagram of each other.
+	eg: input1 = "what"
+	    input2 = "twah"
+	    output = above string are anagram 
 
+	    input1 = "what for"
+	    input2 = "for that"
+	    output = above strings are not annagram
