@@ -13,26 +13,31 @@ syntax. Following are the files and its sort description of what it does.
 It has three functions:
 
 [a] Function to reverse the integer from user input.
-	eg: input = 1234
+	eg: 
+	    input = 1234
 	    output = 4321
 
 [b] Function to reverse the string from user input. 
-	eg: input = abcd
+	eg: 
+	    input = abcd
 	    output = dcba
 
 [c] Function to find the reverse factorial from user input.
-	eg: input = 5040
+	eg: 
+	    input = 5040
 	    output = 7!
 
 [2] uniqueChar.java
 	this program return unique char from user input.
-	eg:  input = "aanngghhb"
+	eg:  
+	     input = "aanngghhb"
              output = "b"
 
 [3] AnnaGram.java
 	This programs takes in two different strings from user and checks if they 
 	are annagram of each other.
-	eg: input1 = "what"
+	eg: 
+	    input1 = "what"
 	    input2 = "twah"
 	    output = above string are anagram 
 
