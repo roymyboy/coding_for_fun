@@ -12,28 +12,28 @@ syntax. Following are the files and its sort description of what it does.
 [1] rev.java
 It has three functions:
 
-[a] Function to reverse the integer from user input.
-	eg: 
+	[a] Function to reverse the integer from user input.
+		eg: 
 
-	    input = 1234
-	    output = 4321
+	    	input = 1234
+	    	output = 4321
 
-[b] Function to reverse the string from user input. 
-	eg: 
+	[b] Function to reverse the string from user input. 
+		eg: 
 
-	    input = abcd
-	    output = dcba
+	   	 input = abcd
+	   	 output = dcba
 
-[c] Function to find the reverse factorial from user input.
-	eg: 
+	[c] Function to find the reverse factorial from user input.
+		eg: 
 
-	    input = 5040
-	    output = 7!
+	    	input = 5040
+	    	output = 7!
 
 [2] uniqueChar.java
 	this program return unique char from user input.
 	eg:
-  
+
 	     input = "aanngghhb"
              output = "b"
 
@@ -49,3 +49,10 @@ It has three functions:
 	    input1 = "what for"
 	    input2 = "for that"
 	    output = above strings are not annagram
+
+[4] closeToZero.java
+	This program returns the number closer to zero.
+	eg:
+	
+	    input = {98, 34, 27, 8, 0.99, -87, 9}
+            output = 0.99
