@@ -34,24 +34,23 @@ public class rev{
 	}
 	
 	/**@brief!
- 	* This function takes in an integer from user and reverses it and 
+ 	* This recursive function takes in an integer from user and reverses it and 
  	* rerutns the reverse of the user input.
  	*
  	* @param integer type number
- 	* @return reversed number 
  	*/  
-	public static int revInt(int num){	
-
-		int revNum = 0;
+	private static void rev(int num){
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Please enter the number you would like to reverse: ");
 		num = scan.nextInt();
-		while(num != 0){		
-		    revNum =  revNum*10 + num % 10;
-		    num = num/10;
+		
+		if (num < 10){
+			System.out.println(num);
+		} else {
+			System.out.println(num%10); 
+			rev(num/10);
 		}
-		System.out.println("Your reverse number is: " + revNum);
-		return revNum;
 	}
 	
 	/**@brief!
